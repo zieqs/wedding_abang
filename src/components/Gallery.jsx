@@ -13,10 +13,10 @@ export default function Gallery() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-amber-600/80 tracking-[0.25em] uppercase text-sm mb-3 font-sans">
-            Kenangan
+            <Memories>Memories</Memories>
           </p>
           <h2 className="font-serif text-4xl md:text-5xl text-stone-800 leading-tight">
-            Galeri Kami
+            Our Memories Captured in Photos
           </h2>
           <div className="w-16 h-0.5 bg-amber-500/50 mx-auto mt-6" />
         </div>
