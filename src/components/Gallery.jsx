@@ -13,7 +13,7 @@ export default function Gallery() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-amber-600/80 tracking-[0.25em] uppercase text-sm mb-3 font-sans">
-            <Memories>Memories</Memories>
+            Memories
           </p>
           <h2 className="font-serif text-4xl md:text-5xl text-stone-800 leading-tight">
             Our Memories Captured in Photos
