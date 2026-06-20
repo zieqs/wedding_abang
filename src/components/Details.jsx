@@ -50,7 +50,7 @@ export default function Details() {
                 Venue
               </p>
               <p className="text-stone-700 font-sans">
-                Dewan Maksak, Putrajaya, Presint 14
+                Kompleks Maksak, Putrajaya, Presint 14
               </p>
               <div className="flex items-center justify-center gap-3 mt-4">
                 <a
