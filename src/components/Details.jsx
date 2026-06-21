@@ -25,11 +25,11 @@ export default function Details() {
           </p>
 
           <p className="text-stone-600 font-sans text-sm leading-relaxed mb-4">
-            Dengan segala hormatnya menjemput YB / Tan Sri / Puan Sri / Dato&apos; Sri / Datin Sri / Dato&apos; / Datin / Tuan / Puan / Cik ke walimatulurus putera kami
+            Dengan segala hormatnya menjemput YB / Tan Sri / Puan Sri / Dato&apos; Sri / Datin Sri / Dato&apos; / Datin / Tuan / Puan / Cik ke walimatulurus putera sulung kami
           </p>
 
           <p className="text-stone-500 font-sans italic text-sm leading-relaxed mb-8">
-            Cordially invite YB / Tan Sri / Puan Sri / Dato&apos; Sri / Datin Sri / Dato&apos; / Datin / Mr. / Mrs. / Ms. to the wedding reception of our son.
+            Cordially invite YB / Tan Sri / Puan Sri / Dato&apos; Sri / Datin Sri / Dato&apos; / Datin / Mr. / Mrs. / Ms. to the wedding reception of our eldest son.
           </p>
 
           <div className="w-12 h-0.5 bg-amber-500/50 mx-auto mb-8" />
