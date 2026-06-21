@@ -12,11 +12,11 @@ export default function Home() {
       <main>
         <Hero />
         <Details />
-        <Gallery />
         <section id="rsvp" className="py-20 bg-stone-100">
            <h2 className="text-center text-3xl font-cursive mb-8">Confirm Attendance</h2>
            <RSVPForm />
         </section>
+        <Gallery />
         <Footer />
         <MusicPlayer />
       </main>
