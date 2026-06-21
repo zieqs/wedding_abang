@@ -89,7 +89,7 @@ export default function Envelope({ onOpen }) {
             <div className="w-8 h-px bg-amber-400/40 mx-auto mb-6" />
 
             <p className="font-serif italic text-sm text-stone-500">
-              11<sup className="text-[0.6em]">th</sup> October 2026
+              11 Oktober 2026
             </p>
           </div>
         </div>

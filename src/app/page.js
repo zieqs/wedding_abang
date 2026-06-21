@@ -13,7 +13,7 @@ export default function Home() {
         <Hero />
         <Details />
         <section id="rsvp" className="py-20 bg-stone-100">
-           <h2 className="text-center text-3xl font-cursive mb-8">Confirm Attendance</h2>
+           <h2 className="text-center text-3xl font-cursive mb-8">RSVP</h2>
            <RSVPForm />
         </section>
         <Gallery />

@@ -5,33 +5,24 @@ export default function Details() {
         <div className="bg-[#FEFEFE] rounded-2xl p-8 md:p-10 shadow-lg shadow-stone-200/50 border border-stone-100 text-center">
 
           <p className="text-stone-700 font-sans leading-relaxed mb-6">
-            Assalamualaikum wbt dan Selamat Sejahtera<br />
-            Dengan penuh kesyukuran ke hadrat ilahi
+            Assalamualaikum wbt & Salam Sejahtera
           </p>
-
-          <p className="text-stone-500 font-sans italic text-sm leading-relaxed mb-8">
-            Peace be upon you and warm greetings<br />
-            With the grace and blessings of Allah
-          </p>
-
-          <div className="w-12 h-0.5 bg-amber-500/50 mx-auto mb-8" />
+          <div className="w-12 h-0.5 bg-amber-500/50 mx-auto mb-7" />
 
           <p className="text-stone-800 font-sans text-base leading-relaxed">
-            Azrul Anuar bin Ismail
+            Azrul Anuar Ismail
           </p>
           <p className="text-amber-600 font-serif text-lg my-2">&amp;</p>
           <p className="text-stone-800 font-sans text-base leading-relaxed mb-8">
-            Julaida binti Jufri
+            Julaida Jufri
           </p>
 
           <p className="text-stone-600 font-sans text-sm leading-relaxed mb-4">
-            Dengan segala hormatnya menjemput YB / Tan Sri / Puan Sri / Dato&apos; Sri / Datin Sri / Dato&apos; / Datin / Tuan / Puan / Cik ke walimatulurus putera sulung kami
+            Dengan segala hormatnya menjemput <br />
+            Dato&apos; / Datin / Tuan / Puan / Encik / Cik <br />
+            ke majlis perkahwinan putera sulung kami <br />
+            bersama pilihan hatinya.
           </p>
-
-          <p className="text-stone-500 font-sans italic text-sm leading-relaxed mb-8">
-            Cordially invite YB / Tan Sri / Puan Sri / Dato&apos; Sri / Datin Sri / Dato&apos; / Datin / Mr. / Mrs. / Ms. to the wedding reception of our eldest son.
-          </p>
-
           <div className="w-12 h-0.5 bg-amber-500/50 mx-auto mb-8" />
 
           <p className="font-brush text-3xl md:text-4xl text-stone-800 leading-tight">
@@ -47,7 +38,7 @@ export default function Details() {
           <div className="space-y-6">
             <div>
               <p className="text-amber-700 font-sans font-bold text-sm uppercase tracking-wider mb-1">
-                Venue
+                Lokasi Majlis
               </p>
               <p className="text-stone-700 font-sans">
                 Kompleks Maksak, Putrajaya, Presint 14
@@ -65,7 +56,7 @@ export default function Details() {
                   <span>Waze</span>
                 </a>
                 <a
-                  href="https://maps.app.goo.gl/Gu7R9tHi5JdcrrDr7?g_st=ic"
+                  href="https://maps.app.goo.gl/RFWnFM78Znjmr1nz6"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-400/40 text-amber-700 text-sm font-sans hover:bg-amber-50 transition-colors"
@@ -80,25 +71,55 @@ export default function Details() {
 
             <div>
               <p className="text-amber-700 font-sans font-bold text-sm uppercase tracking-wider mb-1">
-                Date
+                Tarikh Majlis
               </p>
               <p className="text-stone-700 font-sans">
                 Ahad, 11 Oktober 2026
-              </p>
-              <p className="text-stone-500 font-sans italic text-sm">
-                Sunday, 11th October 2026
               </p>
             </div>
 
             <div>
               <p className="text-amber-700 font-sans font-bold text-sm uppercase tracking-wider mb-1">
-                Time
+                Masa
               </p>
               <p className="text-stone-700 font-sans">
-                11AM - 4PM
+                12 tengah hari - 4 petang
               </p>
             </div>
           </div>
+
+          <div className="w-12 h-0.5 bg-amber-500/50 mx-auto my-8" />
+
+          <h3 className="font-serif text-2xl md:text-3xl text-stone-800 leading-tight mb-6">
+            Atur Cara Majlis
+          </h3>
+
+          <div className="space-y-6">
+            <div>
+              <p className="text-amber-700 font-sans font-bold text-sm uppercase tracking-wider mb-1">
+                Jamuan Makan
+              </p>
+              <p className="text-stone-700 font-sans">
+                12 tengah hari — 4 petang
+              </p>
+            </div>
+
+            <div>
+              <p className="text-amber-700 font-sans font-bold text-sm uppercase tracking-wider mb-1">
+                Ketibaan Pengantin
+              </p>
+              <p className="text-stone-700 font-sans">
+                12.30 tengah hari
+              </p>
+            </div>
+          </div>
+
+          <div className="w-12 h-0.5 bg-amber-500/50 mx-auto mt-8 mb-6" />
+
+          <p className="text-stone-600 font-sans text-sm italic leading-relaxed">
+            Sila RSVP kehadiran anda sebelum<br />
+            11 September 2026
+          </p>
 
         </div>
       </div>

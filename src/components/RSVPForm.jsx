@@ -44,8 +44,8 @@ export default function RSVPForm() {
   if (status === 'success') {
     return (
       <div className="text-center p-6 bg-green-100 text-green-800 rounded-lg">
-        <h3 className="text-xl font-bold">Thank You!</h3>
-        <p>Your response has been received.</p>
+        <h3 className="text-xl font-bold">Terima Kasih!</h3>
+        <p>Respons anda telah diterima.</p>
       </div>
     );
   }
@@ -53,7 +53,7 @@ export default function RSVPForm() {
   return (
     <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4 p-4">
       <div>
-        <label className="block text-sm font-medium mb-1">Full Name</label>
+        <label className="block text-sm font-medium mb-1">Nama Penuh</label>
         <input
           type="text"
           required
@@ -63,18 +63,18 @@ export default function RSVPForm() {
       </div>
 
       <div>
-        <label className="block text-sm font-medium mb-1">Attendance</label>
+        <label className="block text-sm font-medium mb-1">Kehadiran</label>
         <select
           className="w-full p-2 border rounded"
           onChange={(e) => setFormData({...formData, attendance: e.target.value})}
         >
-          <option value="Hadir">Saya Akan Hadir / I will be there</option>
-          <option value="Tidak Hadir">Maaf, Saya Tidak Dapat Hadir / Sorry, I cannot attend</option>
+          <option value="Hadir">Saya akan hadir</option>
+          <option value="Tidak Hadir">Maaf, Saya tidak dapat hadir</option>
         </select>
       </div>
 
       <div>
-        <label className="block text-sm font-medium mb-1">Number of Guests (including you)</label>
+        <label className="block text-sm font-medium mb-1">Bilangan Tetamu (termasuk anda)</label>
         <input
           type="number"
           min="0"
@@ -91,7 +91,7 @@ export default function RSVPForm() {
       </div>
 
       <div>
-        <label className="block text-sm font-medium mb-1">Message / Doa</label>
+        <label className="block text-sm font-medium mb-1">Ucapan</label>
         <textarea
           className="w-full p-2 border rounded"
           onChange={(e) => setFormData({...formData, message: e.target.value})}
@@ -103,7 +103,7 @@ export default function RSVPForm() {
         disabled={status === 'loading'}
         className="w-full bg-amber-700 text-white py-2 rounded hover:bg-amber-800 transition"
       >
-        {status === 'loading' ? 'Sending...' : 'Send Response'}
+        {status === 'loading' ? 'Sending...' : 'Hantar RSVP'}
       </button>
 
       {status === 'error' && <p className="text-red-500 text-center">Error! Please try again.</p>}

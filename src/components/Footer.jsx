@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="w-12 h-0.5 bg-amber-600/50 mx-auto mb-8" />
 
         <p className="font-serif text-2xl text-amber-400/80">
-          Hariez & Sofea
+          Hariez & Anushka
         </p>
 
         <p className="text-stone-600 text-xs font-sans mt-8">
