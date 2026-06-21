@@ -45,7 +45,7 @@ export default function Details() {
               </p>
               <div className="flex items-center justify-center gap-3 mt-4">
                 <a
-                  href="https://waze.com/ul/hw282fc2vp"
+                  href="https://waze.com/ul?ll=2.9522096762798524%2C101.72361844418006&navigate=yes"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-400/40 text-amber-700 text-sm font-sans hover:bg-amber-50 transition-colors"
@@ -56,7 +56,7 @@ export default function Details() {
                   <span>Waze</span>
                 </a>
                 <a
-                  href="https://maps.app.goo.gl/RFWnFM78Znjmr1nz6"
+                  href="https://www.google.com/maps/dir/?api=1&destination=2.9522096762798524%2C101.72361844418006"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-400/40 text-amber-700 text-sm font-sans hover:bg-amber-50 transition-colors"
