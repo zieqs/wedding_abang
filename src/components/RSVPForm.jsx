@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { createClient } from '@/utils/supabase/client';
 const supabase = createClient();
 
@@ -12,6 +12,13 @@ export default function RSVPForm() {
     message: ''
   });
   const [status, setStatus] = useState(''); // 'loading', 'success', 'error'
+
+  // Reset guest count to 0 when attendance is "Tidak Hadir"
+  useEffect(() => {
+    if (formData.attendance === 'Tidak Hadir') {
+      setFormData(prev => ({ ...prev, guest_count: 0 }))
+    }
+  }, [formData.attendance])
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -70,12 +77,13 @@ export default function RSVPForm() {
         <label className="block text-sm font-medium mb-1">Number of Guests (including you)</label>
         <input
           type="number"
-          min="1"
-          defaultValue={1}
-          className="w-full p-2 border rounded"
+          min="0"
+          value={formData.guest_count}
+          disabled={formData.attendance === 'Tidak Hadir'}
+          className={`w-full p-2 border rounded ${formData.attendance === 'Tidak Hadir' ? 'bg-gray-100 text-gray-400' : ''}`}
           onChange={(e) => {
             const val = parseInt(e.target.value)
-            if (!isNaN(val) && val >= 1) {
+            if (!isNaN(val) && val >= 0) {
               setFormData({...formData, guest_count: val})
             }
           }}
